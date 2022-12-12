@@ -20,7 +20,7 @@ export default {
       type: String,
       require: true,
     },
-    isCustomIcon: {
+    isCustomSvg: {
       type: Boolean,
       default: false,
     },
