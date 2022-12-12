@@ -1,5 +1,4 @@
-[![npm](https://img.shields.io/npm/v/remixicon.svg?labelColor=4A4A4A&color=006AFF&style=flat-square)](https://www.npmjs.com/package/vct-icons)
-[![downloads](https://img.shields.io/npm/dt/remixicon.svg?labelColor=4A4A4A&color=23AF5F&style=flat-square)](https://www.npmjs.com/package/vct-icons)
+[![npm](https://img.shields.io/npm/v/vct-icons?color=006AFF)](https://www.npmjs.com/package/vct-icons)
 
 简体中文
 
