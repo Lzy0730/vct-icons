@@ -41,26 +41,26 @@ size="图标大小"
 
 ```html
 <div style="font-size: 24px;">
-  <vct-icon icon="admin-line" size="ri-fw" />
+  <vct-icon icon="admin-line" size="fw" />
   <!-- fixed width -->
-  <vct-icon icon="admin-line" size="ri-xxs" />
+  <vct-icon icon="admin-line" size="xxs" />
   <!-- 0.5em -->
-  <vct-icon icon="admin-line" size="ri-xs" />
+  <vct-icon icon="admin-line" size="xs" />
   <!-- 0.75em -->
-  <vct-icon icon="admin-line" size="ri-sm" />
+  <vct-icon icon="admin-line" size="sm" />
   <!-- 0.875em -->
-  <vct-icon icon="admin-line" size="ri-1x" />
+  <vct-icon icon="admin-line" size="1x" />
   <!-- 1em -->
-  <vct-icon icon="admin-line" size="ri-lg" />
+  <vct-icon icon="admin-line" size="lg" />
   <!-- 1.3333em -->
-  <vct-icon icon="admin-line" size="ri-xl" />
+  <vct-icon icon="admin-line" size="xl" />
   <!-- 1.5em -->
-  <vct-icon icon="admin-line" size="ri-2x" />
+  <vct-icon icon="admin-line" size="2x" />
   <!-- 2em -->
-  <vct-icon icon="admin-line" size="ri-3x" />
+  <vct-icon icon="admin-line" size="3x" />
   <!-- 3em -->
   ...
-  <vct-icon icon="admin-line" size="ri-10x" />
+  <vct-icon icon="admin-line" size="10x" />
   <!-- 10em -->
 </div>
 ```
