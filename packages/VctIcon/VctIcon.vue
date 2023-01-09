@@ -1,5 +1,5 @@
 <template>
-  <div class="vct-icon" style="font-size: 24px">
+  <div @click="$emit('click')" class="vct-icon" style="font-size: 24px">
     <i :class="iconClass" v-if="!isCustomIcon"></i>
     <svg v-else>
       <use :xlink:href="`#${icon}`"></use>
