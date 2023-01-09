@@ -4,7 +4,6 @@
     :class="iconClass"
     v-if="!isCustomSvg"
     class="vct-icon"
-    style="font-size: 24px"
   ></i>
   <svg v-else @click="$emit('click')">
     <use :xlink:href="`#${icon}`"></use>
