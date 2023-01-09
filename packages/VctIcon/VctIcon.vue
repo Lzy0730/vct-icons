@@ -1,10 +1,14 @@
 <template>
-  <div @click="$emit('click')" class="vct-icon" style="font-size: 24px">
-    <i :class="iconClass" v-if="!isCustomIcon"></i>
-    <svg v-else>
-      <use :xlink:href="`#${icon}`"></use>
-    </svg>
-  </div>
+  <i
+    @click="$emit('click')"
+    :class="iconClass"
+    v-if="!isCustomSvg"
+    class="vct-icon"
+    style="font-size: 24px"
+  ></i>
+  <svg v-else @click="$emit('click')">
+    <use :xlink:href="`#${icon}`"></use>
+  </svg>
 </template>
 
 <script>
